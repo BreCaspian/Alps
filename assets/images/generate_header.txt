@@ -1,0 +1,24 @@
+Header Image Generation Instructions
+
+For the blog header image, you should create an image with the following specifications:
+
+1. Dimensions: 1200x400 pixels
+2. Style: Modern, clean, with a tech-focused aesthetic
+3. Content: Visual elements representing machine learning, computer vision, robotics, high-performance computing, and programming
+4. Color scheme: Use a gradient background with blues and purples, which are associated with technology and innovation
+5. Typography: Include the text "Tech Research Blog" in a modern sans-serif font
+6. Visual elements could include:
+   - Neural network nodes and connections
+   - Circuit board patterns
+   - Robot silhouettes
+   - Code snippets
+   - GPU/CPU visualization
+7. Save the image as "header.png" in the assets directory
+
+You can create this image using design tools like:
+- Adobe Photoshop
+- Canva
+- Figma
+- GIMP (free and open source)
+
+After creating the image, replace the placeholder reference in the README.md. 
