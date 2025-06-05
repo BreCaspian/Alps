@@ -11,7 +11,7 @@
     <a href="https://github.com/BreCaspian/Alps/network/members"><img src="https://img.shields.io/github/forks/BreCaspian/Alps?style=flat-square&logo=github" alt="Forks"></a>
     <a href="https://github.com/BreCaspian/Alps/issues"><img src="https://img.shields.io/github/issues/BreCaspian/Alps?style=flat-square&logo=github" alt="Issues"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"></a>
-    <img src="https://img.shields.io/badge/Last%20Updated-April%202025-green.svg?style=flat-square" alt="Last Updated">
+    <img src="https://img.shields.io/badge/Last%20Updated-April%202023-green.svg?style=flat-square" alt="Last Updated">
   </p>
 </div>
 
@@ -82,27 +82,25 @@ The content is regularly updated with new discoveries, emerging technologies, an
 ## 📚 Featured Articles
 
 <details open>
-<summary><b>💻 Programming</b></summary>
+<summary><b>🧠 Machine Learning</b></summary>
 
-### 💻 Programming
+### 🧠 Machine Learning
 | Date | Title | Description |
 |------|-------|-------------|
-| 2023-08-12 | [Functional Programming Principles](articles/programming/functional-programming.md) | Functional programming (FP) is a programming paradigm that treats computation as the evaluation o... |
-| 2023-07-10 | [Design Patterns in Modern Software](articles/programming/modern-design-patterns.md) | Design patterns are reusable solutions to common problems in software design. They represent best... |
+| 2023-07-15 | [Introduction to Transformer Architecture](articles/machine-learning/transformer-architecture.md) | The Transformer architecture, introduced in the landmark 2017 paper ["Attention Is All You Need"]... |
 
 </details>
-
 
 <details open>
-<summary><b>⚡ High-Performance Computing</b></summary>
+<summary><b>👁️ Computer Vision</b></summary>
 
-### ⚡ High-Performance Computing
+### 👁️ Computer Vision
 | Date | Title | Description |
 |------|-------|-------------|
-| 2023-08-05 | [CUDA Programming Fundamentals](articles/high-performance-computing/cuda-fundamentals.md) | Graphics Processing Units (GPUs) have evolved from specialized hardware for rendering graphics to... |
+| 2023-07-22 | [Understanding Convolutional Neural Networks](articles/computer-vision/understanding-cnns.md) | Convolutional Neural Networks (CNNs) have revolutionized the field of computer vision, enabling r... |
+| 2023-06-05 | [详细讲解体素网格降采样](articles/computer-vision/体素网格降采样.md) | 点云数据是由三维空间中大量离散点组成的数据集，通常来源于激光雷达（LiDAR）、深度相机等设备。随着点云数据规模的增加，处理这些数据的计算成本和存储需求也随之上升。体素网格降采样通过将三维空间划... |
 
 </details>
-
 
 <details open>
 <summary><b>🤖 Robotics</b></summary>
@@ -115,78 +113,26 @@ The content is regularly updated with new discoveries, emerging technologies, an
 
 </details>
 
-
-<details open>
-<summary><b>👁️ Computer Vision</b></summary>
-
-### 👁️ Computer Vision
-| Date | Title | Description |
-|------|-------|-------------|
-| 2025-06-05 | [详细讲解体素网格降采样](articles/computer-vision/体素网格降采样.md) | 点云数据是由三维空间中大量离散点组成的数据集，通常来源于激光雷达（LiDAR）、深度相机等设备。随着点云数据规模的增加，处理这些数据的计算成本和存储需求也随之上升。体素网格降采样通过将三维空间划... |
-| 2023-07-22 | [Understanding Convolutional Neural Networks](articles/computer-vision/understanding-cnns.md) | Convolutional Neural Networks (CNNs) have revolutionized the field of computer vision, enabling r... |
-
-</details>
-
-
-<details open>
-<summary><b>🧠 Machine Learning</b></summary>
-
-### 🧠 Machine Learning
-| Date | Title | Description |
-|------|-------|-------------|
-| 2023-07-15 | [Introduction to Transformer Architecture](articles/machine-learning/transformer-architecture.md) | The Transformer architecture, introduced in the landmark 2017 paper ["Attention Is All You Need"]... |
-
-</details>
-
-
-<details open>
-<summary><b>🧠 Machine Learning</b></summary>
-
-| Article | Description | Date |
-|:--------|:------------|:-----|
-| [Introduction to Transformer Architecture](articles/machine-learning/transformer-architecture.md) | Understanding the revolutionary "Attention Is All You Need" architecture | 2023-07-15 |
-
-</details>
-
-<details open>
-<summary><b>👁️ Computer Vision</b></summary>
-
-| Article | Description | Date |
-|:--------|:------------|:-----|
-| [Understanding Convolutional Neural Networks](articles/computer-vision/understanding-cnns.md) | Deep dive into CNNs and their applications in image processing | 2023-07-22 |
-
-</details>
-
-<details open>
-<summary><b>🤖 Robotics</b></summary>
-
-| Article | Description | Date |
-|:--------|:------------|:-----|
-| [Path Planning Algorithms](articles/robotics/path-planning.md) | Exploration of A*, RRT, and other path planning algorithms | 2023-07-30 |
-| [Sensor Fusion Techniques](articles/robotics/sensor-fusion.md) | Combining data from multiple sensors for improved perception | 2023-08-15 |
-
-</details>
-
 <details open>
 <summary><b>⚡ High-Performance Computing</b></summary>
 
-| Article | Description | Date |
-|:--------|:------------|:-----|
-| [CUDA Programming Fundamentals](articles/high-performance-computing/cuda-fundamentals.md) | Getting started with NVIDIA CUDA for GPU programming | 2023-08-05 |
+### ⚡ High-Performance Computing
+| Date | Title | Description |
+|------|-------|-------------|
+| 2023-08-05 | [CUDA Programming Fundamentals](articles/high-performance-computing/cuda-fundamentals.md) | Graphics Processing Units (GPUs) have evolved from specialized hardware for rendering graphics to... |
 
 </details>
 
 <details open>
 <summary><b>💻 Programming</b></summary>
 
-| Article | Description | Date |
-|:--------|:------------|:-----|
-| [Design Patterns in Modern Software](articles/programming/modern-design-patterns.md) | Implementation of design patterns in contemporary development | 2023-07-10 |
-| [Functional Programming Principles](articles/programming/functional-programming.md) | Core concepts and benefits of functional programming | 2023-08-12 |
+### 💻 Programming
+| Date | Title | Description |
+|------|-------|-------------|
+| 2023-08-12 | [Functional Programming Principles](articles/programming/functional-programming.md) | Functional programming (FP) is a programming paradigm that treats computation as the evaluation o... |
+| 2023-07-10 | [Design Patterns in Modern Software](articles/programming/modern-design-patterns.md) | Design patterns are reusable solutions to common problems in software design. They represent best... |
 
 </details>
-
-
 
 ## 🤝 Contributing
 
@@ -204,7 +150,7 @@ We welcome your contributions to this research blog. Here's how to get started:
 2. 🌿 Create branch: `git checkout -b feature/your-feature`
 3. 🔀 Submit pull request
 
-For more details, see [Contributing Guidelines](CONTRIBUTING.md).
+For more details, see [Contributing Guidelines](CONTRIBUTING.md) and [Article Guidelines](ARTICLE_GUIDELINES.md).
 
 
 
