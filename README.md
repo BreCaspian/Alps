@@ -77,6 +77,16 @@ The content is regularly updated with new discoveries, emerging technologies, an
   </table>
 </div>
 
+## 📦 Resources
+
+To complement our articles, we provide a comprehensive collection of resources including:
+
+- **🧮 [Source Code](resources/code/)**: Implementations of algorithms and techniques discussed in articles
+- **📊 [Datasets](resources/datasets/)**: Sample data for experiments and demonstrations
+- **🎮 [Interactive Demos](resources/demos/)**: Hands-on applications to explore concepts
+- **📑 [Technical Documents](resources/docs/)**: In-depth documentation, proofs, and additional materials
+
+These resources are designed to provide practical context to the theoretical concepts covered in our articles. Feel free to explore, use, and contribute to these resources following our [guidelines](resources/README.md).
 
 
 ## 📚 Featured Articles
