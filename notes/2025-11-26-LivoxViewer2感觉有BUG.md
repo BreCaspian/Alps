@@ -3,24 +3,24 @@
 <p align="center">
   <img src="../resource/figure/2025-11-26/Screenshot from 2025-11-26 20-22-38.png"
        alt="LivoxViewer 连接Livox Horizon激光雷达"
-       height="260">
+       height="400">
 </p>
-<p align="center"><em>图 1 LivoxViewer 连接Livox Horizon 激光雷达 </em></p>
+<p align="center"><em>图 1 LivoxViewer 连接 Livox Horizon 激光雷达 </em></p>
 
 
 <p align="center">
   <img src="../resource/figure/2025-11-26/Screenshot from 2025-11-26 20-29-13.png"
        alt="livox_ros2_driver 驱动 Livox Horizon激光雷达"
-       height="260">
+       height="400">
 </p>
 <p align="center"><em>图 2 livox_ros2_driver 驱动 Livox Horizon 激光雷达 </em></p>
 
 <p align="center">
   <img src="../resource/figure/2025-11-26/Screenshot from 2025-11-26 20-31-32.png"
        alt="LivoxViewer2 连接Livox Horizon激光雷达"
-       height="260">
+       height="400">
 </p>
-<p align="center"><em>图 3 LivoxViewer2 连接Livox Horizon 激光雷达 </em></p>
+<p align="center"><em>图 3 LivoxViewer2 连接 Livox Horizon 激光雷达 </em></p>
 
 
 不管是在Windows里面还是Linux里面，都有这种情况出现，激光雷达设备就是不给你显示出来，LivoxViewer2里面IP一直卡着第一次打开的IP
