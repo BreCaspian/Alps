@@ -18,6 +18,7 @@
 
 <!-- NOTES_START -->
 
+- [点云配准思路简记](notes/2025-11-28-点云配准.md)
 - [屌丝专用 Terminal !](notes/2025-11-26-屌丝专用Terminal.md)
 - [为什么我的 /image_raw 是绿色的？](notes/2025-11-26-为什么我的image_raw是绿色.md)
 - [总感觉 LivoxViewer2 好像有BUG](notes/2025-11-26-LivoxViewer2感觉有BUG.md)
