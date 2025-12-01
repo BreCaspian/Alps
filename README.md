@@ -19,6 +19,7 @@
 <!-- NOTES_START -->
 
 - [初始SLAM](notes/2025-12-01-初识SLAM.md)
+- [再识CMake](notes/2025-12-01-再识CMake.md)
 - [Transformer源码实现与优秀博客](notes/2025-11-29-Transformer源码实现与优秀博客.md)
 - [点云配准思路简记](notes/2025-11-28-点云配准.md)
 - [屌丝专用 Terminal !](notes/2025-11-26-屌丝专用Terminal.md)
