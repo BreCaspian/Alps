@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/yao/TEST/useEigen",
+  "command": "/usr/bin/c++  -I/usr/include/eigen3 -std=c++11 -o CMakeFiles/useEigen.dir/eigenMatrix.cpp.o -c /home/yao/TEST/useEigen/eigenMatrix.cpp",
+  "file": "/home/yao/TEST/useEigen/eigenMatrix.cpp"
+},
+{
+  "directory": "/home/yao/TEST/useEigen",
+  "command": "/usr/bin/c++  -I/usr/include/eigen3 -std=c++11 -o CMakeFiles/useGeometry.dir/useGeometry.cpp.o -c /home/yao/TEST/useEigen/useGeometry.cpp",
+  "file": "/home/yao/TEST/useEigen/useGeometry.cpp"
+},
+{
+  "directory": "/home/yao/TEST/useEigen",
+  "command": "/usr/bin/c++  -I/usr/include/eigen3 -std=c++11 -o CMakeFiles/TEST.dir/3dVector.cpp.o -c /home/yao/TEST/useEigen/3dVector.cpp",
+  "file": "/home/yao/TEST/useEigen/3dVector.cpp"
+}
+]
