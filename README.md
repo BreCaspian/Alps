@@ -18,6 +18,7 @@
 
 <!-- NOTES_START -->
 
+- [时光飞逝](notes/2025-12-31-新年快乐.md)
 - [三维空间刚体运动](notes/2025-12-02-三维空间刚体运动.md)
 - [再识SLAM](notes/2025-12-01-再识SLAM.md)
 - [再识CMake](notes/2025-12-01-再识CMake.md)
