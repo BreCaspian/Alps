@@ -49,6 +49,12 @@ python -m pip install -U mamba-ssm --no-build-isolation --no-cache-dir -v
 
 
 
+<p align="center">
+  <img src="../resource/figure/2026-01-24/mamba-ssm.png"
+       alt="mamba-ssm"
+       >
+</p>
+<p align="center"><em>mamba-ssm Install </em></p>
 
 
 
@@ -59,8 +65,7 @@ python -m pip install -U mamba-ssm --no-build-isolation --no-cache-dir -v
 
 
 
-
-
+---
 
 
 ### log 
