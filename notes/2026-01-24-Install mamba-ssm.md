@@ -1,37 +1,48 @@
 # mamba-ssm Install
 
-my computer info 
+## My Computer Info
 
+```bash
 (torch) 12:47 😀 yao@robot:~$ nproc
 20
+
 (torch) 12:53 😀 yao@robot:~$ free -h
                total        used        free      shared  buff/cache   available
 Mem:            15Gi       3.4Gi       9.3Gi        38Mi       2.7Gi        11Gi
 Swap:          7.4Gi       2.8Gi       4.6Gi
-(torch) 12:54 😀 yao@robot:~$ 
+````
 
+---
 
 ## Install Command
 
+### Option 1: Fixed 4 Jobs (Safe)
+
+```bash
 export MAX_JOBS=4
 export NINJA_FLAGS="-j4"
 python -m pip install -U mamba-ssm --no-build-isolation --no-cache-dir -v
+```
 
-or
+### Option 2: Use All Cores (Not Recommended)
 
-用全部核（不推荐，可能又把系统卡爆）
+> ⚠️ Might freeze the system / VSCode due to high CPU usage.
 
+```bash
 export MAX_JOBS=$(nproc)
 export NINJA_FLAGS="-j$(nproc)"
 python -m pip install -U mamba-ssm --no-build-isolation --no-cache-dir -v
+```
 
-保守点，用一半核（推荐）
+### Option 3: Use Half Cores (Recommended)
 
+```bash
 JOBS=$(( $(nproc) / 2 ))
 [ "$JOBS" -lt 1 ] && JOBS=1
 export MAX_JOBS=$JOBS
 export NINJA_FLAGS="-j$JOBS"
 python -m pip install -U mamba-ssm --no-build-isolation --no-cache-dir -v
+```
 
 ---
 
@@ -52,6 +63,9 @@ python -m pip install -U mamba-ssm --no-build-isolation --no-cache-dir -v
 
 
 
+### log 
+
+````md
 
   ptxas info    : Function properties for _Z25selective_scan_fwd_kernelI32Selective_Scan_fwd_kernel_traitsILi32ELi8ELi1ELb1ELb0ELb0ELb1EffEEv13SSMParamsBase
       0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
