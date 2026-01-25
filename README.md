@@ -19,6 +19,7 @@
 <!-- NOTES_START -->
 
 - [RL Plan](notes/2026-01-24-RL.md)
+- [通过 RL 来玩 Minecraft](notes/2026-01-24-RL&MineCraft.md)
 - [mamba-ssm Install](notes/2026-01-24-Install_mamba-ssm.md)
 - [时光飞逝](notes/2025-12-31-新年快乐.md)
 - [三维空间刚体运动](notes/2025-12-02-三维空间刚体运动.md)
