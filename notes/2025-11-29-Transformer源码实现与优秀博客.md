@@ -19,6 +19,9 @@
   
 ---
 
+# Transformer 吃透计划
+
+
 ## 1) 全网高质量资料索引（按“吃透顺序”）
 
 1. **原论文：Transformer从0到1**
@@ -187,3 +190,150 @@ Transformer没有循环结构，所以必须显式注入位置信息。原论文
 [7]: https://arxiv.org/abs/1512.03385?utm_source=chatgpt.com "Deep Residual Learning for Image Recognition"
 [8]: https://arxiv.org/abs/1810.04805?utm_source=chatgpt.com "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
 [9]: https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf?utm_source=chatgpt.com "Attention Is All You Need - NeurIPS"
+
+
+---
+
+# Transformer 相关优秀视频讲解
+
+下面是我帮你“全网深度搜”出来、**真讲透注意力机制 + Transformer** 的高质量视频清单（中英都有），并给你一条**最省时间的观看顺序**。每个条目后面都带可点的来源。
+
+---
+
+## 最推荐的观看顺序（照这个看，最容易“吃透”）
+
+1. **先建立直觉（看懂 Q/K/V、softmax、multi-head 到底在干嘛）**
+
+* 3Blue1Brown：*Attention in transformers, step-by-step*（把注意力矩阵怎么来的讲得极清楚，强烈推荐先看） ([YouTube][1])
+* MIT 6.S191（2025版）：*RNNs, Transformers, and Attention*（从序列建模痛点 → attention → transformer，体系完整） ([YouTube][2])
+
+2. **再把“标准Transformer”系统化（结构、mask、位置编码、训练细节）**
+
+* Stanford CS224N（Lecture 8）：*Self-Attention and Transformers*（经典课，推导+结构讲得很正） ([YouTube][3])
+* Stanford CS224N（Lecture 7）：*Attention*（专门讲attention，适合补齐基础与细节） ([YouTube][4])
+
+3. **最后用“论文带读 + 代码实战”完成闭环（真正吃透的关键）**
+
+* 李沐（B站）：*Transformer论文逐段精读*（按论文逐段讲，信息密度极高） ([哔哩哔哩][5])
+* Andrej Karpathy：*Let’s build GPT from scratch*（从零写GPT，mask、embedding、训练循环全打通） ([YouTube][6])
+
+---
+
+## 中文向：非常适合系统吃透（入门→进阶）
+
+* 李宏毅（B站相关合集）：*自注意力机制与Transformer详解*（更友好、更适合入门建立框架） ([哔哩哔哩][7])
+* 动手学深度学习v2（李沐）：*68 Transformer*（配合实现与工程细节，适合“会写出来”） ([YouTube][8])
+* 李沐（B站）：*Transformer论文逐段精读*（进阶必看，吃透“为什么这么设计”） ([哔哩哔哩][5])
+
+---
+
+## 英文向：大学课程级别（深度 + 视野）
+
+* Stanford CS25（Transformers United，整套playlist）：覆盖NLP/CV/RL/对齐/检索增强/专家混合等（看完视野会非常开） ([YouTube][9])
+* Stanford CS25（含Karpathy的Intro to Transformers）：讲Transformer直觉与演化脉络很强 ([YouTube][9])
+* Stanford CME295（2025）：*Transformers & LLMs*（更贴近“LLM时代”的课堂结构，含attention与transformer总览） ([YouTube][10])
+* fast.ai（Lesson 24：Attention & Transformers）：偏“代码直觉+应用”，适合补不同视角 ([Practical Deep Learning for Coders][11])
+
+---
+
+## 如果你只想挑“3套”就吃透（最省时间版）
+
+1. 3Blue1Brown：把注意力机制真正看懂 ([YouTube][1])
+2. CS224N Lecture 8：系统掌握Transformer标准结构与要点 ([YouTube][3])
+3. Karpathy：从零写GPT，把mask/训练/推理细节全部落地 ([YouTube][6])
+
+---
+
+## 你“吃透”的自测标准（看完要能做到这些）
+
+* 能手写/口述：Scaled Dot-Product Attention、为什么要除 √d、为什么multi-head有效
+* 能说清：**padding mask vs causal mask** 各解决什么问题
+* 能画出一层：Encoder层 / Decoder层，并说明 self-attn / cross-attn 的 Q/K/V 分别来自哪里
+* 能自己实现一个最小Transformer/GPT（哪怕小数据过拟合）
+
+---
+
+[1]: https://www.youtube.com/watch?v=eMlx5fFNoYc&utm_source=chatgpt.com "Attention in transformers, step-by-step | Deep Learning Chapter 6"
+[2]: https://www.youtube.com/watch?v=GvezxUdLrEk&utm_source=chatgpt.com "MIT 6.S191: Recurrent Neural Networks, Transformers, and Attention"
+[3]: https://www.youtube.com/watch?v=LWMzyfvuehA&utm_source=chatgpt.com "Stanford CS224N NLP with Deep Learning | 2023 | Lecture 8 - YouTube"
+[4]: https://www.youtube.com/watch?v=J7ruSOIzhrE&utm_source=chatgpt.com "Stanford CS224N: NLP w/ DL | Spring 2024 | Lecture 7 - YouTube"
+[5]: https://www.bilibili.com/opus/586487984822265072?utm_source=chatgpt.com "Transformer论文逐段精读【论文精读】 - 哔哩哔哩"
+[6]: https://www.youtube.com/watch?v=kCc8FmEb1nY&utm_source=chatgpt.com "Let's build GPT: from scratch, in code, spelled out. - YouTube"
+[7]: https://www.bilibili.com/list/3537113337301588?bvid=BV1r8nMz4EAj&oid=115269171155173&utm_source=chatgpt.com "李宏毅 | 自注意力机制和Transformer详细解析，目前最合适 ..."
+[8]: https://www.youtube.com/watch?v=oIH17WP8Wko&utm_source=chatgpt.com "68 Transformer【动手学深度学习v2】 - YouTube"
+[9]: https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM&utm_source=chatgpt.com "Stanford CS25 - Transformers United - YouTube"
+[10]: https://www.youtube.com/watch?v=Ub3GoFaUcds&utm_source=chatgpt.com "Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 1 ... - YouTube"
+[11]: https://course.fast.ai/Lessons/lesson24.html?utm_source=chatgpt.com "24: Attention & transformers - Practical Deep Learning for Coders"
+
+
+---
+
+# Transformer 相关综述
+
+
+下面按“**最全总览** → **高效/长上下文** → **视觉/多模态** → **压缩与部署**”给你一组**口碑+覆盖面+信息密度**都很强的 Transformer/变种综述（基本都能当文献入口用）。
+
+## 必读：Transformer 变种全景总览（最接近你要的“最全”）
+
+1. **A Survey of Transformers (arXiv:2106.04554)**
+   给了比较系统的 **X-formers 分类法**，从**结构改造、预训练、应用**三个视角把大量变种串起来，适合作为“总目录”。 ([arXiv][1])
+
+2. **Efficient Transformers: A Survey (arXiv:2009.06732)**
+   专攻“**为什么/怎么把 Transformer 做高效**”：稀疏、低秩、线性注意力、长序列等经典路线都有梳理，适合你要吃透各种结构 trick 的“脉络图”。 ([arXiv][2])
+
+3. **A Historical Survey of Advances in Transformer Architectures (Applied Sciences, 2024)**
+   偏“**历史演进视角**”：从早期 Transformer 到 LLM/ViT 时代的关键分叉与代表作，适合把发展时间线捋顺。 ([MDPI][3])
+
+---
+
+## 注意力机制 & 长序列：把“attention 这坨”吃透的综述入口
+
+4. **Efficient Attention Methods: Hardware-efficient, Sparse, Compact, and Linear Attention (PDF)**
+   很硬核的“**注意力优化大全**”，把方法按 **硬件友好 / 稀疏 / KV 压缩 / 线性注意力**做统一 taxonomy，还配统一分析框架（想把 attention 研究线索一次性掌握，这篇很顶）。 
+
+5. **Advancing Transformer Architecture in Long-Context LLMs: A Comprehensive Survey (arXiv:2311.12351)**
+   专门讲 **长上下文**：从预训练到推理阶段的架构升级、评测数据集/指标、工具链等，适合“长上下文能力”这条主线深挖。 ([arXiv][4])
+
+---
+
+## 视觉 Transformer 变种：CV 方向最权威的入口之一
+
+6. **Transformers in Vision: A Survey (arXiv:2101.01169)**
+   覆盖很广：分类/检测/分割、生成、多模态、视频、低层视觉、3D 等，适合把 ViT 系列与 CV 任务脉络一次连起来。 ([arXiv][5])
+
+---
+
+## 压缩、推理与落地：想把“变种”理解到工程层必读
+
+7. **A Survey on Transformer Compression (arXiv:2402.05964)**
+   Transformer 专属的压缩视角：剪枝、量化、蒸馏、结构高效化等，并且覆盖 LLM/LVM 场景。 ([arXiv][6])
+
+8. **A Survey of Techniques for Optimizing Transformer Inference (arXiv:2307.07982)**
+   更偏“推理阶段全栈优化”：算法层（蒸馏/剪枝/量化/NAS…）到硬件与加速器设计都有整理，适合工程落地。 ([arXiv][7])
+
+9. **From Transformers to LLMs: A Systematic Survey of Efficiency Considerations in NLP (arXiv:2406.16893, v2 2025)**
+   NLP/LLM 侧的“效率系统综述”，覆盖到 2011–2025 的大量工作，还把 **微调、提示工程、RAG** 的效率问题也纳入讨论。 ([arXiv][8])
+
+10. **A Survey on LLM Acceleration based on KV Cache Management (arXiv:2412.19442, TMLR 2025)**
+    长上下文推理的核心瓶颈之一：**KV cache**。这篇把 token/model/system 三层策略做了清晰分类，还给了基准与论文清单仓库。 ([arXiv][9])
+
+---
+
+## 如果你想“最快吃透”，建议阅读顺序
+
+* **先读总览**：#1（全景 taxonomy）→ #2（高效 X-formers）
+* **再把注意力搞透**：#4（attention 优化大全）
+* **按你方向选分支**：CV 就 #6；长上下文就 #5 + #10；工程部署就 #7 + #8；NLP 效率与RAG就 #9
+
+如果你告诉我你更关注：**LLM（长上下文/推理）** 还是 **CV（ViT 体系）**，我可以把上面这几篇再细化成“每篇该看哪些章节、配套该补哪些经典原论文”的精读路线。
+
+[1]: https://arxiv.org/abs/2106.04554 "[2106.04554] A Survey of Transformers"
+[2]: https://arxiv.org/abs/2009.06732 "[2009.06732] Efficient Transformers: A Survey"
+[3]: https://www.mdpi.com/2076-3417/14/10/4316 "A Historical Survey of Advances in Transformer Architectures | MDPI"
+[4]: https://arxiv.org/abs/2311.12351 "[2311.12351] Advancing Transformer Architecture in Long-Context Large Language Models: A Comprehensive Survey"
+[5]: https://arxiv.org/abs/2101.01169 "[2101.01169] Transformers in Vision: A Survey"
+[6]: https://arxiv.org/abs/2402.05964 "[2402.05964] A Survey on Transformer Compression"
+[7]: https://arxiv.org/abs/2307.07982 "[2307.07982] A Survey of Techniques for Optimizing Transformer Inference"
+[8]: https://arxiv.org/abs/2406.16893 "[2406.16893] From Transformers to LLMs: A Systematic Survey of Efficiency Considerations in NLP"
+[9]: https://arxiv.org/abs/2412.19442 "[2412.19442] A Survey on Large Language Model Acceleration based on KV Cache Management"
+
