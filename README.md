@@ -18,6 +18,7 @@
 
 <!-- NOTES_START -->
 
+- [嵌入式软件——电控笔记](notes/2026-02-03-嵌入式软件-电控笔记.md)
 - [RL Plan](notes/2026-01-24-RL.md)
 - [通过 RL 来玩 Minecraft](notes/2026-01-24-RL&MineCraft.md)
 - [mamba-ssm Install](notes/2026-01-24-Install_mamba-ssm.md)
